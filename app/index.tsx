@@ -10,12 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Image source={require('../assets/images/android-icon-background.png')} 
-        style={{
-          width: 200,
-          height: 200
-        }}/>
+      <Text className="text-red-500 bg-yellow-300 w-full text-center">Edit app/index.tsx to edit this screen.</Text>
+      
     </View>
   );
 }
